@@ -192,6 +192,8 @@ Eine Modellierungssprache enthält eine Menge von Elementen, welche bestimmte pr
 - Notation: wie werden die Elemente grafisch dargestellt
 - Semantik: welche Bedeutung haben die Elemente
 
+\newpage
+
 ### BPMN
 Die Business Process Modell and Notation ist die am **weitesten verbreitete Prozessmodellierungssprache**. Sie wird hauptsächlich für das Modellieren von Geschäftsprozessen und ausführbaren Prozessen eingesetzt.
 
@@ -200,6 +202,8 @@ Die Business Process Modell and Notation ist die am **weitesten verbreitete Proz
 ## Aktivitätsdiagramm
 
 ![Aktivitätsdiagramm](./images/activity.png)
+
+\newpage
 
 ## Zustandsdiagramme
 Sind ein Werkzeug, um das **Verhalten von Systemen** in verschiedenen **Zuständen** zu beschreiben.
@@ -210,6 +214,8 @@ Sind ein Werkzeug, um das **Verhalten von Systemen** in verschiedenen **Zuständ
 
 ![Zustandsdiagramm](./images/state.png)
 
+\newpage
+
 ## Sequenzdiagramme
 Ist eine grafische Darstellung von **Interatkion zwischen Objekten in einem System**
 
@@ -218,6 +224,8 @@ Ist eine grafische Darstellung von **Interatkion zwischen Objekten in einem Syst
 - Hilft bei der Analyse von Interatkion zwischen Objekten
 
 ![Sequenzdiagramm](./images/sequence.png)
+
+\newpage
 
 ## Use Case
 
@@ -344,7 +352,7 @@ Ein Klassendiagramm ist eine grafische Darstellung von Klassen, Attributen und M
 
 Eine Komposition zwischen einem Pool und einem Poolfilter könnte angeben, dass der Pool den Poolfilter besitzt und ohne Poolfliter nicht existieren kann.
 
-![Aggregation](./images/aggregation.png)
+![Aggregation](./images/aggregation.png){height=200px}
 
 # Versionskontrolle
 Eine Versionskontrolle ist eine Software, welche **Änderungen an Dateien** über die Zeit verfolgt und speichert. Sie ermöglicht es mehreren Personen gleichzeitig am Projekt zu arbeiten, ohne dass dabei Konflikte entstehen.
@@ -398,6 +406,8 @@ Ist eine spezielle Form der Client-Server-Architektur. Der Client ist hier in de
 - die Anwendung plattformunabhängig ist und ohne Installation von Software auf dem Client genutzt werden soll
 - die Anwendung häufig aktualisiert oder erweitert werden soll
 
+\newpage
+
 ## Verteilte Systeme
 Ist eine Architektur bei der die Komponenten der Anwendung auf **verschiedene physikalische oder virtuelle Systeme** vereilt sind und über das Netzwerk kommunizieren. Sie bietet folgende Vorteile:
 
@@ -422,7 +432,7 @@ Die Dienste selbst sind als **wiederverwendbare Komponenten implementier**:
 
 Die Kommunikation der SOA geschieht über einen **Enterprise Service Bus (ESB)**. Über diesen Service Bus lassen sich unterschiedliche Schnittstellen anbinden, indem für jedes System ein Adapter gebaut wird.
 
-![Enterprise Service Bus](./images/esb.png)
+![Enterprise Service Bus](./images/esb.png){height=150px}
 
 ## Micro-Service Architektur
 
@@ -450,6 +460,8 @@ Eine Event-Driven Architektur sollte angewendet werden wenn:
 - Das System komplexer ist und aus mehreren unabhängigen Komponenten besteht
 - Die Verarbeitung von Events unabhängig von der Quelle oder dem Empfänger des Events erfolgen kann
 
+\newpage
+
 ### Technologien
 
 - **Messaging-Systeme**: Baut einen asynchronen Nachrichtenaustausch auf. Apache Kafka, RabbitMQ können genutzt werden um Events zwischen den verschiedenen Komponenten auszutauschen
@@ -475,6 +487,8 @@ Das System wird in verschiedene Schichten aufgeteilt. Jede Schicht hat hierbei *
 - Skalierbarkeit
 - Sicherheit: Unauthorisierter Zugriff wird durch Sicherheitsschichten abgeriegeltl
 
+\newpage
+
 ## Model-View-Controller (MVC)
 Das **Model** enthält die Geschäftslogik und die Datenhaltung. Die **View** stellt die Benutzeroberfläche dar. Der **Controller** nimmt Eingaben vom Benutzer entgegen und aktualisiert das Model und die View entsprechend:
 
@@ -499,6 +513,8 @@ Beinhaltet alle Aktivitäten rund um die **Organisation von Tests und Gestaltung
 - Test-Execution
 - Test-Tracking: Nachvollziehbarkeit von Testergebnissen, Bewertung von Qualitätsmetriken
 - Test-Reporting: Visualisierung und Kommunikation der Testergebnisse
+
+\newpage
 
 ## Rollen
 
@@ -556,6 +572,8 @@ Tests bei der die API Schnittstelle getestet wird um sicherzustellen, dass sie k
 
 Tests, die das **Gesamtsystem oder ein Teil des Systems testen**, indem sie die Funktionalität des Systems als Ganzes überprüfen.
 
+\newpage
+
 ## End-to-End-Tests
 
 > E2E Tests können manuell oder automatisch durchgeführt werden
@@ -581,6 +599,8 @@ Ist ein Mechanismus, welcher es zwei Softwarekomponenten ermöglicht mithilfe ei
 - Betriebssystem-APIs: Zugriff auf Betriebssystemfunktionen
 - Datenbank-APIs
 - Cloud-APIs: Zugriff auf Cloud-Dienste und Ressourcen
+
+\newpage
 
 ## Lifecycle-Management
 Bezeichnet die Verwaltung **des gesamten Lebenszyklus der API**, von der Konzeption über die Entwicklung bis zur Veröffentlichung und Pflege:
@@ -614,6 +634,8 @@ Die Versionierung dient dazu, die API abwärtskompatibel zu gestalten und Änder
 - Dokumentation der Unterschiede zwischen den Versionen
 
 Unter **Abwärtskompatibilität** ist die Fähigkeit eine neue Version der Software mit älterer Umgebung zu integrieren zu verstehen. Unter **Aufwärtskompatibilität** ist die Fähigkeit eine ältere Version in eine neuere Umgebung zu integrieren zu verstehen.
+
+\newpage
 
 ## Sicherheitsaspekte
 
